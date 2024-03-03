@@ -1,13 +1,12 @@
 {
-  "name": "vuepress-theme-reco-demo",
-  "version": "2.0.0",
-  "description": "Demo for vuepress-theme-reco@2.x.",
-  "repository": "git@github.com:recoluan/vuepress-theme-reco-demo.git",
-  "author": "reco_luan <recoluan@outlook.com>",
+  "name": "frontend-nodes",
+  "version": "0.1.0",
+  "description": "前端笔记",
+  "repository": "git@github.com:fromleechiyan/frontend-nodes.git",
+  "author": "Leechiyan <fromleechiyan@163.com>",
   "license": "MIT",
   "scripts": {
     "dev": "vuepress dev .",
-    "start": "vuepress dev .",
     "build": "vuepress build ."
   },
   "dependencies": {
