@@ -4,6 +4,8 @@ import recoTheme from "vuepress-theme-reco";
 export default defineUserConfig({
   title: "前端笔记",
   description: "一个自用的前端笔记",
+  pagePatterns: ["**/*.md", "!README.md", "!.vuepress", "!node_modules"],
+  locales: { "/": { lang: "zh-CN" } },
   theme: recoTheme({
     style: "@vuepress-reco/style-default",
     logo: "/logo.png",
