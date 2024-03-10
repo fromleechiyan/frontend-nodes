@@ -11,19 +11,25 @@ export default defineUserConfig({
     logo: "/logo.png",
     author: "Leechiyan",
     authorAvatar: "/head.png",
-    docsRepo: "https://github.com/vuepress-reco/vuepress-theme-reco-next",
+    docsRepo: "https://github.com/fromleechiyan/frontend-nodes",
     docsBranch: "main",
-    docsDir: "example",
+    docsDir: "",
     lastUpdatedText: "",
     series: {
-      "/docs/theme-reco/": [
+      "/docs/interview/": [
         {
-          text: "第一部分",
-          children: ["home", "theme"],
+          text: "基础",
+          children: ["html"],
         },
         {
-          text: "第二部分",
-          children: ["api", "plugin"],
+          text: "进阶",
+          children: [],
+        },
+      ],
+      "/docs/notes/": [
+        {
+          text: "随笔",
+          children: [],
         },
       ],
     },
@@ -32,8 +38,8 @@ export default defineUserConfig({
       {
         text: "文档",
         children: [
-          { text: "html", link: "/docs/theme-reco/theme" },
-          { text: "javascript", link: "/docs/other/guide" },
+          { text: "面试", link: "/docs/interview/" },
+          { text: "笔记", link: "/docs/notes/" },
         ],
       },
     ],
